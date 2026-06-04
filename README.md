@@ -1,35 +1,21 @@
-# ShopEasy 🛒
+# ShopEasy
 
-ShopEasy is a modern e-commerce web application that allows users to browse products, add items to the cart, and place orders through a user-friendly interface.
+A responsive e-commerce website built using HTML, CSS, and JavaScript.
 
 ## Features
-
-- User Authentication (Login/Signup)
-- Product Listing & Search
-- Product Details Page
-- Add to Cart Functionality
-- Order Management
-- Responsive Design
-- Secure API Integration
+- Product Listing
+- Add to Cart
+- Responsive UI
+- Modern Design
 
 ## Tech Stack
-
-### Frontend
-- React.js
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 
-### Backend
-- Node.js
-- Express.js
+## Run Locally
+Download or clone the repository and open `index.html` in your browser.
 
-### Database
-- MongoDB
+## Author
+Mohammad Anas
 
-## Installation
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/shopeasy.git
