@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">ShopEasy</div>
+        <div class="search"> <input type="text" placeholder="Search products"> 
+            <button>Search</button>
+        </div>
+
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="cart.html">Cart</a>
+            <a href="login.html">Login</a>
+        </div>
+    </nav>
+
+    <section class="banner">
+        <h1>Welcome to ShopEasy</h1>
+        <p>Best Deals Everyday</p>
+    </section>
+
+    <section class="products">
+        <div class="card">
+            <img src="Phone.jpeg" alt="Phone">
+            <h3>Smartphone</h3>
+            <p>₹15000</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="Headphone.jpeg" alt="Headphones">
+            <h3>Headphones</h3>
+            <p>₹1500</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="Laptop.jpeg" alt="Laptop">
+            <h3>Laptop</h3>
+            <p>₹45000</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy 2026 ShopEasy</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
